@@ -1,0 +1,66 @@
+.signIn {
+    padding-top: 5rem;
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+$white: #fff;
+$google-blue: #4285f4;
+$button-active-blue: #1669F2;
+
+  .contact {
+    min-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .google-btn {
+      overflow: hidden;
+      cursor: pointer;  
+      width: 220px;
+      height: 42px;
+      background-color: $google-blue;
+      // border-radius: 2px;
+      box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+      .google-icon-wrapper {
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 40px;
+        height: 39px;
+        border-radius: 2px;
+        background-color: $white;
+      }
+      .google-icon {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 11px;
+        width: 18px;
+        height: 18px;
+      }
+      .btn-text {
+        text-align: center;
+        margin: 11px 25px 3px 50px;
+        color: $white;
+        font-size: 14.5px;
+        letter-spacing: 0.2px;
+        font-family: "Roboto";
+      }
+      &:hover {
+        box-shadow: 0 0 6px $google-blue;
+      }
+      &:active {
+        background: $button-active-blue;
+      }
+    }
+
+    .header__link {
+      color: #fff;
+      text-decoration: none;
+   }   
+
+  }
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);

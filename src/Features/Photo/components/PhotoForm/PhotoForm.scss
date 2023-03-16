@@ -1,0 +1,20 @@
+.editPage {
+    position: relative;
+    min-height: 44rem;
+    &-Link {
+        position: absolute;
+        bottom: 91px;
+        right: 220px;
+
+         .header__link {
+            color: #fff;
+            text-decoration: none;
+         }   
+    
+         
+    }
+   
+}
+
+
+
