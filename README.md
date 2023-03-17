@@ -1,5 +1,10 @@
 ## PHOTO-REACT-REDUX
+##LINK URL:
+https://photo-app-redux-a6e45.web.app/photos
+
 ##Options
+
+
 -CRA: Create React App-npm
 -UI lib: Reactstrap
 -React-Router
