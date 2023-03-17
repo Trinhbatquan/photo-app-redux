@@ -15,19 +15,19 @@ import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
 
-  apiKey: process.env.REACT_APP_APIKEY,
+  apiKey: "AIzaSyCcT7_h-nwuaT7dfNLRzqBa-GYzqP7CmLg",
 
-  authDomain: process.env.REACT_APP_AUTHDOMAIN,
+  authDomain: "photo-app-redux-a6e45.firebaseapp.com",
 
-  projectId: process.env.REACT_APP_PROJECTID,
+  projectId: "photo-app-redux-a6e45",
 
-  storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+  storageBucket: "photo-app-redux-a6e45.appspot.com",
 
-  messagingSenderId:process.env.REACT_APP_MESAGINGSENDERID,
+  messagingSenderId: "717641151906",
 
-  appId: process.env.REACT_APP_APPID,
+  appId: "1:717641151906:web:c054191cb7e38c86bbeefb",
 
-  measurementId: process.env.REACT_APP_MEASUREMENTID,
+  measurementId: "G-MQ41ZZF9L7",
 
 };
 
